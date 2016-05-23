@@ -1,0 +1,5 @@
+Things to finish:
+
+include keystore
+AsyncTask?
+Move to Capstone repo

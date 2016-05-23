@@ -1,0 +1,30 @@
+{
+  "documentation": "An action to be performed by the user",
+  "fields": [
+    {
+      "name": "action",
+      "type": "enum",
+      "enumName": "actionKind",
+      "enumValues": [
+        "TAKE",
+        "PUT"
+      ],
+      "nullable": false
+    },
+    {
+      "documentation": "Date when the action has to be performed",
+      "name": "date",
+      "type": "Date",
+      "nullable": false
+    },
+    {
+      "documentation": "If the action has been already performed",
+      "name": "ready",
+      "type": "Boolean",
+      "nullable": false,
+      "index":true
+    }
+  ]
+
+
+}
